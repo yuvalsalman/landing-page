@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="en">
 
 <head>
 
@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/coming-soon.min.css" rel="stylesheet">
-  
+
    <!-- RTL FIX CSS -->
     <link href="css/bootstrap-rtl.css" rel="stylesheet">
 
@@ -39,14 +39,14 @@
       <div class="row h-100">
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">היי!</h1>
-            <p class="mb-5">Here you can send me your CV, please indicate important details that I need to know in the body of the email.<br>
-            I promise to answer soon and wish you much success!</p>
+            <h1 class="mb-3 text-right" dir="rtl">היי!</h1>
+            <p class="mb-5 text-right" dir="rtl">כאן תוכלו לשלוח לי קורות חיים למשרה המבוקשת, בבקשה התייחסו לפרטים חשובים בגוף המייל.<br>
+מבטיחה לענות בהקדם ומאחלת הרבה בהצלחה!</p>
             <div class="input-group input-group-newsletter">
-              <input type="text" class="form-control" id= "name" placeholder="Your name" aria-label="Your name" aria-describedby="submit-button">
-              <input type="text" class="form-control" id= "job" placeholder="Job name" aria-label="Job name" aria-describedby="submit-button">
+              <input type="text" class="form-control" id= "name" placeholder="שם מלא" aria-label="Your name" aria-describedby="submit-button">
+              <input type="text" class="form-control" id= "job" placeholder="שם המשרה" aria-label="Job name" aria-describedby="submit-button">
               <div class="input-group-append">
-                <button onclick="doMail();" method="GET" class="btn btn-secondary" type="button" id="submit-button">Send Email!</button>
+                <button onclick="doMail();" method="GET" class="btn btn-secondary" type="button" id="submit-button">שלח מייל!</button>
                 <!--Send mail script-->
                 <script>
 
@@ -58,7 +58,7 @@
                     subject.concat(" CV for: ");
                     subject.concat(job);
 
-                    location.href = "mailto:cv4mynewjob@gmail.com?subject=" + name + " CV for: " + job;                    
+                    location.href = "mailto:cv4mynewjob@gmail.com?subject=" + name + " - קורות חיים עבור משרת: " + job;                    
                   }
 
                 </script>

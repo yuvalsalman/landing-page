@@ -40,9 +40,26 @@
             <p class="mb-5">Here you can send me your CV, please indicate important details that I need to know in the body of the email.<br>
             I promise to answer soon and wish you much success!</p>
             <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button">
+              <input type="text" class="form-control" id= "name" placeholder="Your name" aria-label="Your name" aria-describedby="submit-button">
+              <input type="text" class="form-control" id= "job" placeholder="Name of the job" aria-label="Name of the job" aria-describedby="submit-button">
               <div class="input-group-append">
-                <button class="btn btn-secondary" type="button" id="submit-button">Send Email!</button>
+                <button onclick="doMail();" method="GET" class="btn btn-secondary" type="button" id="submit-button">Send Email!</button>
+                <!--Send mail script-->
+                <script>
+
+                  function doMail() {
+                    var name = document.getElementById('name').value;
+                    var job = document.getElementById('job').value;
+                    var subject = "";
+                    subject.concat(name);
+                    subject.concat(" CV for: ");
+                    subject.concat(job);
+
+                    location.href = "mailto:cv4mynewjob@gmail.com?subject=" + name + " CV for: " + job;                    
+                  }
+
+                </script>
+
               </div>
             </div>
           </div>

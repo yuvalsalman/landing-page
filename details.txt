@@ -1,0 +1,22 @@
+cv mail:
+cv4mynewjob@gmail.com
+
+facebook page:
+https://www.facebook.com/%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%94%D7%97%D7%93%D7%A9%D7%94-%D7%A9%D7%9C%D7%99-472576649944496
+
+website:
+https://www.svt.jobs/m/daniel.w?fbclid=IwAR2HvEj4y_hGjrBm0W_KtFi7kWj2CYgEZBmGTYvli0LOtc-AkaDwhPWTw6I
+
+
+todo:
+* hebrew?
+	* toggle between languages?
+* make links work
+	V - FB
+	V - Website
+	? - linkedin
+* email form
+	* with subject
+* logo
+* new colors
+* new video?
